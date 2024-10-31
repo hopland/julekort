@@ -1,0 +1,86 @@
+
+
+      body {
+        background-color: #196C3D;
+        font-family: monospace;
+        color: #ffffff;
+      }
+      
+      header{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #196C3D;
+        top: 0;
+        width: 100%;
+        margin-left: -10px;
+        margin-top: -10px;
+        padding: 10px 0px 10px 30px
+      }
+
+      header h2{
+        font-family: Helvetica;
+      }
+
+      h1{
+        padding-top: 10px;
+        color: beige;
+      }
+
+      a{
+        color: beige;
+        text-decoration: none;
+      }
+
+      .aboutus{
+        position: absolute;
+        right: 40px;
+        background-color: #1C481A;
+        color: beige;
+        border-radius: 4px;
+        border: 0px;
+        padding: 10px 20px 10px 20px;
+      }
+      .monthleft {
+        display: flex;
+        align-items: flex-start; /* Aligns the content to the left */
+        flex-direction: column; /* Ensures the h2 is above and the content below */
+        margin-top: 20px;
+      }
+      .monthleft h2 {
+        margin-right: 20px; /* Optional: Add space between heading and other elements */
+      }
+      .monthleft-content {
+        display: flex;
+        /*align-items: flex-start; /* Aligns paragraph and image horizontally */
+        flex-direction: row
+      }
+      .monthleft-content p {
+        margin-right: 20px; /* Optional: Add space between paragraph and image */
+        margin-top: -2px;
+      }
+      .monthleft-content img {
+        max-height: 200px; /* Adjust as needed to fit your design */
+        margin-left: 0px; /* Optional: Add space between image and other elements */
+      }
+      .monthright{
+        display: flex;
+        align-items: flex-end; /* Aligns the content to the right */
+        flex-direction: column; /* Ensures the h2 is above and the content below */
+        margin-top: 20px;
+      }
+      .monthright h2 {
+        margin-right: 20px; /* Optional: Add space between heading and other elements */
+      }
+      .monthright-content{
+        display: flex;
+        align-items: flex-start; 
+      }
+      .monthright-content p{
+        margin-left: 20px; /* Optional: Add space between paragraph and image */
+        margin-top: -2px;
+      }
+      .monthright-content img{
+        max-height: 200px;
+        margin-left: 0px;
+      }
