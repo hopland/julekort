@@ -61,6 +61,7 @@
       }
       .monthleft-content img {
         max-height: 100px; /* Adjust as needed to fit your design */
+        max-width: fit-content;
         margin-left: 0px; /* Optional: Add space between image and other elements */
       }
       .monthright{
