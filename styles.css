@@ -59,11 +59,25 @@
         margin-right: 20px; /* Optional: Add space between paragraph and image */
         margin-top: -2px;
       }
-      .monthleft-content img {
-        max-height: 100%; /* Adjust as needed to fit your design */
-        max-width: 100%;
+      /* Default (desktop)*/
+      .monthleft-content img,
+      .monthright-content img {
+        max-height: 300px; /* Adjust as needed to fit your design */
+        max-width: 300px;
+        object-fit: cover;
         margin-left: 0px; /* Optional: Add space between image and other elements */
       }
+
+      /* Tablet and smaller screens*/
+      @media (max-width: 768pc) {
+        .monthleft-content img,
+        .monthright-content img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+
+
       .monthright{
         display: flex;
         align-items: flex-end; /* Aligns the content to the right */
@@ -81,7 +95,4 @@
         margin-left: 20px; /* Optional: Add space between paragraph and image */
         margin-top: -2px;
       }
-      .monthright-content img{
-        max-height: 100px;
-        margin-left: 0px;
-      }
+     
