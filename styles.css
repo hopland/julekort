@@ -53,7 +53,7 @@
       .monthleft-content {
         display: flex;
         /*align-items: flex-start; /* Aligns paragraph and image horizontally */
-        flex-direction: row
+        flex-direction: column
       }
       .monthleft-content p {
         margin-right: 20px; /* Optional: Add space between paragraph and image */
@@ -76,7 +76,6 @@
           height: 150px;
         }
       }
-
 
       .monthright{
         display: flex;
