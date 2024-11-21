@@ -66,6 +66,8 @@
         max-width: 300px;
         object-fit: cover;
         margin-left: 0px; /* Optional: Add space between image and other elements */
+        flex-direction: column;
+        gap: 10px;
       }
 
       /* Tablet and smaller screens*/
