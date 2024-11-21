@@ -41,6 +41,7 @@
         border: 0px;
         padding: 10px 20px 10px 20px;
       }
+     
       .monthleft {
         display: flex;
         align-items: flex-start; /* Aligns the content to the left */
@@ -88,3 +89,33 @@
         max-width: 100%; /* Ensure images resize properly */
         height: auto; /* Maintain aspect ratio */
       }
+
+      /*reponsive design*/ 
+      
+      /* Default (desktop) */
+      .monthleft-content img,
+      .monthright-content img {
+        width: 300px;
+        height: 300px;
+        object-fit: cover;
+      }
+
+      /* Tablet and smaller screens */
+      @media (max-width: 768px) {
+        .monthleft-content img,
+        .monthright-content img {
+          width: 150px;
+          height: 150px;
+        }
+      }
+
+      /* Very small phones */
+      @media (max-width: 480px) {
+        .monthleft-content img,
+        .monthright-content img {
+          width: 100px;
+          height: 100px;
+        }
+      }
+
+      
