@@ -61,10 +61,7 @@
         margin-right: 20px; /* Optional: Add space between paragraph and image */
         margin-top: -2px;
       }
-      .monthleft-content img {
-        max-width: 100%; /* Ensure images resize properly */
-        height: auto; /* Maintain aspect ratio */
-      }
+      
 
       .monthright{
         display: flex;
@@ -85,11 +82,7 @@
         margin-left: 20px; /* Optional: Add space between paragraph and image */
         margin-top: -2px;
       }
-      .monthleft-content img {
-        max-width: 100%; /* Ensure images resize properly */
-        height: auto; /* Maintain aspect ratio */
-      }
-
+      
       /*reponsive design*/ 
       
       /* Default (desktop) */
