@@ -82,7 +82,7 @@
       }
       .monthright-content{
         display: flex;
-        flex-direction: row-reverse; /*start with the img and not text*/
+        flex-direction: row; /*start with the img and not text*/
         align-items: flex-start; 
       }
       .monthright-content p{
