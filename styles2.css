@@ -74,7 +74,7 @@ a {
 
 .monthleft-content {
   display: flex;
-  flex-direction: row; /* Aligns text and image horizontal */
+  flex-direction: column; /* Aligns text and image horizontal */
   align-items: flex-start;
   gap: 10px; /* Spacing between items */
   margin-top: -2px;
@@ -108,7 +108,7 @@ a {
     flex: 1; /* Allow the text to fill available space */
     margin: 0; /* Remove default margins for clean alignment */
   }
-  
+
 /* ============================= */
 /* Section Layout: Month Right */
 /* ============================= */
