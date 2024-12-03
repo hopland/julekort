@@ -111,6 +111,7 @@ a {
   display: flex;
   flex-direction: column; /* Ensures image appears before text */
   align-items: flex-start;
+  gap: 20px; /* Adds spacing between each image-text pair */
 }
 
 .image-text-pair {
