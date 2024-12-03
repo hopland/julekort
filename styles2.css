@@ -109,7 +109,7 @@ a {
 
 .monthright-content {
   display: flex;
-  flex-direction: row; /* Ensures image appears before text */
+  flex-direction: column; /* Ensures image appears before text */
   align-items: flex-start;
 }
 
