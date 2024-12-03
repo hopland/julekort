@@ -92,6 +92,23 @@ a {
   object-fit: cover; /* Ensures image is properly displayed */
 }
 
+.image-text-pair {
+    display: flex;
+    flex-direction: row; /* Align image and text horizontally */
+    align-items: flex-start; /* Aligns the text to the top of the image */
+    gap: 10px; /* Adds space between the image and text */
+  }
+  
+  .image-text-pair img {
+    width: 300px; /* Fixed width for images */
+    height: auto; /* Maintain aspect ratio */
+  }
+  
+  .image-text-pair p {
+    flex: 1; /* Allow the text to fill available space */
+    margin: 0; /* Remove default margins for clean alignment */
+  }
+  
 /* ============================= */
 /* Section Layout: Month Right */
 /* ============================= */
