@@ -74,7 +74,7 @@ a {
 
 .monthleft-content {
   display: flex;
-  flex-direction: row; /* Aligns text and image horizontally */
+  flex-direction: column; /* Aligns text and image horizontally */
   align-items: flex-start;
   gap: 10px; /* Spacing between items */
   margin-top: -2px;
