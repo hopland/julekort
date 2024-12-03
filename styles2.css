@@ -81,17 +81,6 @@ a {
   margin-right: 20px; /* Adds spacing from other elements */
 }
 
-.monthleft-content p {
-  flex: 1;
-  margin: 0;
-}
-
-.monthleft-content img {
-  width: 300px;
-  height: 300px;
-  object-fit: cover; /* Ensures image is properly displayed */
-}
-
 .image-text-pair {
     display: flex;
     flex-direction: row; /* Align image and text horizontally */
