@@ -83,6 +83,7 @@ a {
   .image-text-pair img {
     width: 300px; /* Fixed width for images */
     height: auto; /* Maintain aspect ratio */
+    object-fit: contain;
   }
   
   .image-text-pair p {
@@ -124,6 +125,7 @@ a {
   .image-text-pair img {
     width: 300px; /* Fixed width for images */
     height: auto; /* Maintain aspect ratio */
+    object-fit: contain;
   }
   
   .image-text-pair p {
