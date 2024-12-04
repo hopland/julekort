@@ -109,7 +109,9 @@ a {
   display: flex;
   flex-direction: column; /* Ensures image appears before text */
   align-items: flex-start;
-  gap: 20px; /* Adds spacing between each image-text pair */
+  gap: 10px; /* Adds spacing between each image-text pair */
+  margin-top: -2px;
+  margin-right: 20px; /* Adds spacing from other elements */
 }
 
 .image-text-pair {
