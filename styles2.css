@@ -164,3 +164,9 @@ a {
     height: 100px;
   }
 }
+
+.monthleft{
+  padding: 0 20px; /* Add consistent padding to the left and right of all sections */
+  max-width: 1200px; /* Optional: Limit the overall content width */
+  margin: 0 auto; /* Center the content on the page */
+}
