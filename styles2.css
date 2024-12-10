@@ -75,7 +75,7 @@ a {
 
 .image-text-pair {
     display: flex;
-    flex-direction: row; /* Align image and text horizontally */
+    flex-direction: column; /* Align image and text horizontally */
     align-items: flex-start; /* Aligns the text to the top of the image */
     gap: 10px; /* Adds space between the image and text */
   }
