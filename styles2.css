@@ -71,6 +71,7 @@ a {
   gap: 10px; /* Spacing between items */
   margin-top: -2px;
   margin-right: 20px; /* Adds spacing from other elements */
+  padding: 0 20px; /* Adds 20px padding on the both sides */
 }
 
 .image-text-pair {
@@ -113,6 +114,7 @@ a {
   gap: 10px; /* Adds spacing between each image-text pair */
   margin-top: -2px;
   margin-right: 20px; /* Adds spacing from other elements */
+  padding: 0 20px; /* Adds 20px padding on the both sides */
 }
 
 .image-text-pair {
