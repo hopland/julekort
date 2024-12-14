@@ -24,13 +24,13 @@
 
       header h2{
         font-family: Helvetica;
-        margin: 0;
+        margin-left: 20px;
       }
 
       h1{
         padding-top: 10px;
         color: beige;
-        margin-left: -10px;
+        margin-left: 20px;
       }
 
       a{
