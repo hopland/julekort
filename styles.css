@@ -18,11 +18,13 @@
         width: 100%;
         margin-left: -10px;
         margin-top: -10px;
+        margin-right: -10px;
         padding: 10px 0px 10px 30px
       }
 
       header h2{
         font-family: Helvetica;
+        margin: 0;
       }
 
       h1{
