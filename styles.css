@@ -39,6 +39,7 @@
       .aboutus{
         position: absolute;
         right: 40px;
+        top: 50%;
         background-color: #1C481A;
         color: beige;
         border-radius: 4px;
