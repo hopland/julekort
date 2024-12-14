@@ -53,31 +53,10 @@
         padding: 0 20px; /* Adds 20px padding on the both sides */
       }
 
-      
-      
-      /*reponsive design*/ 
-      
-      /* Default (desktop) */
-      .month-content img {
-        max-width: 100%;
-        height: auto;
-      }
-
-      /* Tablet and smaller screens */
-      @media (max-width: 768px) {
-        .month-content img {
-          width: 100%;
-          max-width: 400px;
-          height: auto;
-        }
-      }
-
-      /* Very small phones */
-      @media (max-width: 480px) {
-        .month-content img{
-          width: 100px;
-          height: 100px;
-        }
+      .month-content img{
+        width: 100%; /* Default for smaller screens */
+         max-width: 150px; /* Limit the size of the image for larger screens */
+         height: auto; /* Maintain aspect ratio */
       }
 
       
