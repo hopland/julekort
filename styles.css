@@ -56,16 +56,14 @@
       /*reponsive design*/ 
       
       /* Default (desktop) */
-      .monthleft-content img,
-      .monthright-content img {
-        width: 30px;
-        height: 30px;
+      .month-content img {
+        max-width: 100%;
+        height: auto;
       }
 
       /* Tablet and smaller screens */
       @media (max-width: 768px) {
-        .monthleft-content img,
-        .monthright-content img {
+        .month-content img {
           width: 100%;
           max-width: 400px;
           height: auto;
@@ -74,8 +72,7 @@
 
       /* Very small phones */
       @media (max-width: 480px) {
-        .monthleft-content img,
-        .monthright-content img {
+        .month-content img{
           width: 100px;
           height: 100px;
         }
