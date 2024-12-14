@@ -42,32 +42,11 @@
         padding: 10px 20px 10px 20px;
       }
      
-      .monthleft {
+      .month-content{
         display: flex;
-        align-items: flex-start; /* Aligns the content to the left */
-        flex-direction: column; /* Ensures the h2 is above and the content below */
+        align-items: center;
         margin-top: 20px;
-      }
-      .monthleft h2 {
-        margin-right: 20px; /* Optional: Add space between heading and other elements */
-      }
-      .monthleft-content {
-        display: flex;
-        flex-direction: row;
-        align-items: flex-start; /*align-items: flex-start; /* Aligns paragraph and image horizontally */
-        gap: 10px; /* Add spacing between stacked items */
-        margin-right: 20px; /* Optional: Add space between paragraph and image */
-        margin-top: -2px;
-      }
-      .monthleft-content p {
-        flex: 1;
-        margin: 0;
-      }
-      .monthleft-content img {
-        flex-shrink: 0;
-        width: 200px;
-        height: auto;
-        object-fit: cover;
+        padding: 0 20px; /* Adds 20px padding on the both sides */
       }
 
       .monthright{
