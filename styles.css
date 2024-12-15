@@ -54,6 +54,11 @@
         padding: 0 20px; /* Adds 20px padding on the both sides */
       }
 
+      .month-content p{
+        margin-left: 20px;
+        margin-right: 20px;
+      }
+
       .month-content img{
         width: 100%; /* Default for smaller screens */
          max-width: 400px; /* Limit the size of the image for larger screens */
