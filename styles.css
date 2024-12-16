@@ -72,16 +72,13 @@
       }
 
       .ossto{
-        text-align: center;
+        text-align: left;
         margin-top: 20px;
-        padding: 0 20px; /* Adds 20px padding on the both sides */
         margin-left: 10px;
         margin-right: 10px;
       }
 
       .ossto p{
-        margin-left: 10px;
-        margin-right: 10px;
         margin-bottom: 25px;
         text-align: left;
       }
