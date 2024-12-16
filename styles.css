@@ -57,13 +57,14 @@
       .month-content p{
         margin-left: 10px;
         margin-right: 10px;
+        margin-bottom: 25px;
       }
 
       .month-content img{
         width: 100%; /* Default for smaller screens */
          max-width: 400px; /* Limit the size of the image for larger screens */
          height: auto; /* Maintain aspect ratio */
-         border-radius: 4px;
+         border-radius: 8px;
       }
 
       
