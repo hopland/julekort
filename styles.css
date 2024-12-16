@@ -44,7 +44,6 @@
         background-color: #1C481A;
         color: beige;
         border-radius: 4px;
-        border: 0px;
         padding: 10px 20px 10px 20px;
       }
      
@@ -52,6 +51,8 @@
         text-align: center;
         margin-top: 20px;
         padding: 0 20px; /* Adds 20px padding on the both sides */
+        margin-left: 10px;
+        margin-right: 10px;
       }
 
       .month-content p{
