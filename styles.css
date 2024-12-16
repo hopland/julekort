@@ -69,6 +69,14 @@
          border-radius: 8px;
       }
 
+      .ossto{
+        text-align: center;
+        margin-top: 20px;
+        padding: 0 20px; /* Adds 20px padding on the both sides */
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+
       .ossto p{
         margin-left: 10px;
         margin-right: 10px;
@@ -78,9 +86,9 @@
 
       .ossto img{
         width: 100%; /* Default for smaller screens */
-         max-width: 400px; /* Limit the size of the image for larger screens */
-         height: auto; /* Maintain aspect ratio */
-         border-radius: 8px;
+        max-width: 400px; /* Limit the size of the image for larger screens */
+        height: auto; /* Maintain aspect ratio */
+        border-radius: 8px;
       }
 
       
