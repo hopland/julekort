@@ -97,6 +97,8 @@
         padding: 10px;
         box-sizing: border-box;
         font-size: small;
+        display: flex;
+        flex-direction: column;
       }
 
       
